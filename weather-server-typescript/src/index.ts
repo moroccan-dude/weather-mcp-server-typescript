@@ -226,3 +226,14 @@ main().catch((error) => {
   console.error("Fatal error in main():", error);
   process.exit(1);
 });
+
+// Export functions for testing
+// This is only used in tests and will be tree-shaken in production
+export const __test__ = {
+  makeNWSRequest,
+  formatAlert,
+  server
+};
+
+// Re-export types for testing
+export type { AlertFeature, ForecastPeriod, AlertsResponse, PointsResponse, ForecastResponse };

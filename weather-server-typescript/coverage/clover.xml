@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1746224058817" clover="3.2.0">
+  <project timestamp="1746224058817" name="All files">
+    <metrics statements="50" coveredstatements="15" conditionals="33" coveredconditionals="0" methods="7" coveredmethods="2" elements="90" coveredelements="17" complexity="0" loc="50" ncloc="50" packages="1" files="1" classes="1"/>
+    <file name="index.ts" path="C:\Users\mehdibn\Documents\notes\AI\weather-server-typescript\weather-server-typescript\src\index.ts">
+      <metrics statements="50" coveredstatements="15" conditionals="33" coveredconditionals="0" methods="7" coveredmethods="2"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="15" count="3" type="stmt"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="17" count="3" type="cond" truecount="0" falsecount="1"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="20" count="3" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="39" count="0" type="stmt"/>
+      <line num="40" count="0" type="stmt"/>
+      <line num="76" count="1" type="stmt"/>
+      <line num="82" count="1" type="stmt"/>
+      <line num="89" count="0" type="stmt"/>
+      <line num="90" count="0" type="stmt"/>
+      <line num="91" count="0" type="stmt"/>
+      <line num="93" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="94" count="0" type="stmt"/>
+      <line num="104" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="105" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="106" count="0" type="stmt"/>
+      <line num="116" count="0" type="stmt"/>
+      <line num="117" count="0" type="stmt"/>
+      <line num="119" count="0" type="stmt"/>
+      <line num="130" count="1" type="stmt"/>
+      <line num="143" count="0" type="stmt"/>
+      <line num="144" count="0" type="stmt"/>
+      <line num="146" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="147" count="0" type="stmt"/>
+      <line num="157" count="0" type="stmt"/>
+      <line num="158" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="159" count="0" type="stmt"/>
+      <line num="170" count="0" type="stmt"/>
+      <line num="171" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="172" count="0" type="stmt"/>
+      <line num="182" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="183" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="184" count="0" type="stmt"/>
+      <line num="195" count="0" type="stmt"/>
+      <line num="196" count="0" type="stmt"/>
+      <line num="205" count="0" type="stmt"/>
+      <line num="207" count="0" type="stmt"/>
+      <line num="220" count="1" type="stmt"/>
+      <line num="221" count="1" type="stmt"/>
+      <line num="222" count="1" type="stmt"/>
+      <line num="225" count="1" type="stmt"/>
+      <line num="226" count="0" type="stmt"/>
+      <line num="227" count="0" type="stmt"/>
+      <line num="232" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
