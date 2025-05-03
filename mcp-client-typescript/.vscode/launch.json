@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug MCP Client",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/build/index.js",
+      "args": [
+        "C:/Users/mehdibn/Documents/notes/AI/weather-server-typescript/weather-server-typescript/build/index.js"
+      ],
+      "outFiles": [
+        "${workspaceFolder}/build/**/*.js"
+      ],
+      "sourceMaps": true,
+      "resolveSourceMapLocations": [
+        "${workspaceFolder}/**",
+        "!**/node_modules/**"
+      ],
+      "preLaunchTask": "npm: build",
+      "console": "integratedTerminal",
+      "runtimeArgs": ["--enable-source-maps"],
+      "sourceMapPathOverrides": {
+        "/*": "${workspaceFolder}/*"
+      }
+    }
+  ]
+}
