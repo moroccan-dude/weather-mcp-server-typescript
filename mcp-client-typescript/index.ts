@@ -210,7 +210,6 @@ class MCPClient {
     });
 
     try {
-      console.log("invoking " + b);
       const response = await this.bedrock.send(command);
       
       // Parse the response body
